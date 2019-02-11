@@ -38,11 +38,11 @@ body, html {
   background-attachment: fixed; }
 
 .image-one {
-  background-image: url("../images/prueba1.jpeg");
+  background-image: url("../images/image-one.jpeg");
   min-height: 100%; }
 
 .image-two {
-  background-image: url("../images/prueba3.jpg");
+  background-image: url("../images/image-two.jpeg");
   min-height: 400px; }
 
 .section {
@@ -54,7 +54,7 @@ body, html {
   color: #666; }
 
 .image-three {
-  background-image: url("../images/prueba2.jpeg");
+  background-image: url("../images/image-three.jpg");
   min-height: 400px; }
 
 .section-dark {
@@ -62,7 +62,9 @@ body, html {
   color: #ddd; }
 
 .contact {
-  color: white; }
+  color: white;
+  margin-top: 0px;
+  padding-top: 70px; }
 
 .image-footer {
   text-align: center; }
