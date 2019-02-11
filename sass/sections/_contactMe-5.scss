@@ -3,7 +3,6 @@
 }
 
 .image-footer {
-  display: inline-block;
   text-align: center;
 }
 
@@ -23,15 +22,11 @@
 	position: absolute;
   margin-top:30px;
 	margin-left: -260px;
-  -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
 
 .feedback-input {
 	color:#3c3c3c;
-	font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-	font-size: 18px;
 	border-radius: 0;
 	line-height: 22px;
 	background-color: #fbfbfb;
@@ -52,18 +47,19 @@
 	color: #3498db;
 	outline: none;
   padding: 13px 13px 13px 54px;
+  font-size: 18px;
 }
 
 .focused{
 	color:#30aed6;
-	border:#30aed6 solid 3px;
+  border:#30aed6 solid 3px;
 }
 
 /* Icons ---------------------------------- */
 #name{
 	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
+	background-size: 17px 17px;
+	background-position: 16px 13px;
 	background-repeat: no-repeat;
 }
 
@@ -77,8 +73,8 @@
 
 #email{
 	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-	background-size: 30px 30px;
-	background-position: 11px 8px;
+	background-size: 17px 17px;
+	background-position: 16px 14px;
 	background-repeat: no-repeat;
 }
 
@@ -91,8 +87,15 @@
 
 #comment{
 	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 17px 17px;
+	background-position: 16px 14px;
+	background-repeat: no-repeat;
+}
+
+#comment:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
 	background-size: 30px 30px;
-	background-position: 11px 8px;
+	background-position: 12px 14px;
 	background-repeat: no-repeat;
 }
 
@@ -115,14 +118,12 @@ input:focus, textarea:focus {
 	cursor:pointer;
 	background-color: #3498db;
 	color:white;
-	font-size:24px;
 	padding-top:22px;
 	padding-bottom:22px;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
 }
 
 #button-blue:hover{
@@ -136,9 +137,9 @@ input:focus, textarea:focus {
 	
 .ease {
 	width: 0px;
-	height: 74px;
-	background-color: #fbfbfb;
-	-webkit-transition: .3s ease;
+	height: 59px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
 	-moz-transition: .3s ease;
 	-o-transition: .3s ease;
 	-ms-transition: .3s ease;
