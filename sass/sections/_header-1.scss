@@ -1,0 +1,18 @@
+.image-one, .image-two, .image-three{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.image-one{
+  background-image:url('../images/prueba1.jpeg');
+  min-height:100%;
+}

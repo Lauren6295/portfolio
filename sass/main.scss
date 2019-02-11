@@ -1,9 +1,10 @@
-@import 'variables';
-@import 'parteUno';
-@import 'parteDos';
-@import 'parteTres';
-@import 'desktop';
-@import 'tablet';
-@import 'movil';
-
-
+@import 'sections/variables';
+@import 'sections/generalStyles';
+@import 'sections/header-1';
+@import 'sections/aboutMe-2';
+@import 'sections/whatIOffer-3';
+@import 'sections/myWorks-4';
+@import 'sections/contactMe-5';
+@import 'queries/desktop';
+@import 'queries/tablet';
+@import 'queries/movil';
