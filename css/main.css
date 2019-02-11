@@ -31,15 +31,48 @@ body, html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /*
-    fixed = parallax
-    scroll = normal
-  */
   background-attachment: fixed; }
 
 .image-one {
   background-image: url("../images/image-one.jpeg");
   min-height: 100%; }
+
+.navigation {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  transition: .5s; }
+
+.logo img {
+  float: left;
+  height: 80px;
+  transition: .5s; }
+
+.navigation ul {
+  float: right;
+  margin: 0px;
+  padding: 0px;
+  display: flex; }
+
+.navigation ul li {
+  list-style: none; }
+
+.menu-items a {
+  line-height: 80px;
+  color: #262626;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .5s; }
+
+.navigation a.active,
+.navigation a:hover {
+  color: #fff;
+  background: #f00; }
 
 .image-two {
   background-image: url("../images/image-two.jpeg");
@@ -98,20 +131,20 @@ body, html {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  border: 3px solid rgba(0, 0, 0, 0); }
+  border: 3px solid transparent; }
 
 .feedback-input:focus {
   background: #fff;
   box-shadow: 0;
-  border: 3px solid #3498db;
-  color: #3498db;
+  border: 3px solid #f00;
+  color: #f00;
   outline: none;
   padding: 13px 13px 13px 54px;
   font-size: 18px; }
 
 .focused {
-  color: #30aed6;
-  border: #30aed6 solid 3px; }
+  color: #f00;
+  border: #f00 solid 3px; }
 
 /* Icons ---------------------------------- */
 #name {
@@ -166,7 +199,7 @@ input:focus, textarea:focus {
   width: 100%;
   border: #fbfbfb solid 4px;
   cursor: pointer;
-  background-color: #3498db;
+  background-color: #f00;
   color: white;
   padding-top: 22px;
   padding-bottom: 22px;
@@ -176,11 +209,11 @@ input:focus, textarea:focus {
   margin-top: -4px; }
 
 #button-blue:hover {
-  background-color: rgba(0, 0, 0, 0);
-  color: #0493bd; }
+  background-color: transparent;
+  color: #f00; }
 
 .submit:hover {
-  color: #3498db; }
+  color: #f00; }
 
 .ease {
   width: 0px;

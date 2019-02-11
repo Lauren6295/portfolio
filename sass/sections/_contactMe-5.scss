@@ -45,16 +45,16 @@
 .feedback-input:focus{
 	background: #fff;
 	box-shadow: 0;
-	border: 3px solid #3498db;
-	color: #3498db;
+	border: 3px solid #f00;
+	color: #f00;
 	outline: none;
   padding: 13px 13px 13px 54px;
   font-size: 18px;
 }
 
 .focused{
-	color:#30aed6;
-  border:#30aed6 solid 3px;
+	color:#f00;
+  border:#f00 solid 3px;
 }
 
 /* Icons ---------------------------------- */
@@ -118,7 +118,7 @@ input:focus, textarea:focus {
 	width: 100%;
 	border: #fbfbfb solid 4px;
 	cursor:pointer;
-	background-color: #3498db;
+	background-color: #f00;
 	color:white;
 	padding-top:22px;
 	padding-bottom:22px;
@@ -130,11 +130,11 @@ input:focus, textarea:focus {
 
 #button-blue:hover{
 	background-color: rgba(0,0,0,0);
-	color: #0493bd;
+	color: #f00;
 }
 	
 .submit:hover {
-	color: #3498db;
+	color: #f00;
 }
 	
 .ease {
