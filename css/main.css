@@ -47,7 +47,7 @@ body, html {
   transition: .5s; }
 
 nav.black {
-  background: rgba(0, 0, 0, 0.8);
+  background: red;
   height: 80px;
   padding: 10px 50px; }
 
