@@ -28,28 +28,27 @@ nav.black {
   float:left;
   overflow:hidden;
   width:100%;
-  margin-top: 250px;
+  margin-top: 150px;
   font-size: 25px;
- }
- 
- #menu {
+}
+#menu {
   float:left;
   left:50%;
   list-style:none;
   margin:0 auto;
   padding:0;
   position:relative;
- }
- 
- #menu li {
+}
+
+#menu li {
   float:left;
   position:relative;
   right:50%;
- }
- .menu-items a {
-   text-decoration: none;
-   padding: 15px;
- }
+}
+.menu-items a {
+  text-decoration: none;
+  padding: 15px;
+}
 .container a.active, 
 .container a:hover
 {
@@ -73,4 +72,18 @@ label {
   display: none;
   width: 26px;
   float: right;
+}
+
+#btn-download-cv {
+  margin: 200px auto 0px;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#btn-download-cv:hover {
+  background-color: RoyalBlue;
 }

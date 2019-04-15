@@ -61,7 +61,7 @@ nav.black {
   float: left;
   overflow: hidden;
   width: 100%;
-  margin-top: 250px;
+  margin-top: 150px;
   font-size: 25px;
 }
 
@@ -107,6 +107,20 @@ label {
   display: none;
   width: 26px;
   float: right;
+}
+
+#btn-download-cv {
+  margin: 200px auto 0px;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#btn-download-cv:hover {
+  background-color: RoyalBlue;
 }
 
 .image-two {
