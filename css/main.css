@@ -221,10 +221,10 @@ label {
   height: 250px;
 }
 
-.contact {
+#contact {
   color: white;
-  margin-top: 0px;
-  padding-top: 70px;
+  margin: 0px;
+  padding-top: 40px;
 }
 
 .image-footer {
@@ -237,10 +237,7 @@ label {
 
 #form-div {
   background-color: rgba(72, 72, 72, 0.4);
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 35px;
-  padding-bottom: 50px;
+  padding: 0px 30px;
   width: 450px;
   float: left;
   left: 50%;
