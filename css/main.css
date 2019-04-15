@@ -5,7 +5,8 @@ body, html {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
-  color: #666; }
+  color: #666;
+}
 
 .subtitles {
   position: absolute;
@@ -15,80 +16,89 @@ body, html {
   color: #000;
   font-size: 27px;
   letter-spacing: 8px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .subtitles .border {
   color: #fff;
-  padding: 20px; }
+  padding: 20px;
+}
 
 .subtitles .border.trans {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
-.image-one, .image-two, .image-three {
+.bg-image-one, .image-two, .image-three {
   position: relative;
-  opacity: 0.70;
+  opacity: 0.7;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+}
 
-.image-one {
+.bg-image-one {
   background-image: url("../images/image-one.jpeg");
-  min-height: 100%; }
-
-.navigation {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100px;
-  padding: 10px 100px;
-  box-sizing: border-box;
-  transition: .5s; }
+  min-height: 100%;
+}
 
 nav.black {
   background: red;
   height: 80px;
-  padding: 10px 50px; }
+  padding: 10px 50px;
+}
 
 .logo img {
   float: left;
   height: 60px;
-  transition: .5s;
-  margin-top: 11px; }
+  transition: 0.5s;
+  margin-top: 12px;
+  margin-left: 12px;
+}
 
-nav.black .logo img {
-  height: 45px; }
+.container {
+  clear: both;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 250px;
+  font-size: 25px;
+}
 
-.navigation ul {
-  float: right;
-  margin: 0px;
-  padding: 0px;
-  display: flex; }
+#menu {
+  float: left;
+  left: 50%;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
 
-.navigation ul li {
-  list-style: none; }
+#menu li {
+  float: left;
+  position: relative;
+  right: 50%;
+}
 
 .menu-items a {
-  line-height: 80px;
-  color: #2b2b2b;
-  font-weight: bold;
-  padding: 5px 20px;
   text-decoration: none;
-  text-transform: uppercase;
-  transition: .5s; }
+  padding: 15px;
+}
 
-.navigation a.active,
-.navigation a:hover {
+.container a.active,
+.container a:hover {
   color: #fff;
-  background: #f00; }
+  background: #f00;
+}
 
 nav.black ul li a {
   color: #fff;
-  line-height: 60px; }
+  line-height: 60px;
+}
 
 #toggle {
-  display: none; }
+  display: none;
+}
 
 label {
   margin: 0 40px 0 0;
@@ -96,38 +106,95 @@ label {
   line-height: 70px;
   display: none;
   width: 26px;
-  float: right; }
+  float: right;
+}
 
 .image-two {
   background-image: url("../images/image-two.jpeg");
-  min-height: 400px; }
+  min-height: 300px;
+}
 
 .section {
   text-align: center;
-  padding: 50px 80px; }
+  padding: 50px 80px;
+}
 
 .section-light {
   background-color: #f4f4f4;
-  color: #666; }
+  color: #666;
+}
+
+.container-about {
+  display: flex;
+  padding-top: 70px;
+}
+
+#avatar {
+  width: 100%;
+  height: 100%;
+}
 
 .image-three {
   background-image: url("../images/image-three.jpg");
-  min-height: 400px; }
+  min-height: 300px;
+}
 
 .section-dark {
   background-color: #282e34;
-  color: white; }
+  color: white;
+}
+
+.container-offer h2 {
+  color: #666;
+  padding-top: 20px;
+}
+
+.container-offer {
+  display: flex;
+}
+
+.container-offer div {
+  background: white;
+  width: 100px;
+  height: 250px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.box1 {
+  flex: 1;
+}
+
+.box2 {
+  flex: 1;
+}
+
+.box3 {
+  flex: 1;
+}
+
+.box4 {
+  flex: 1;
+}
+
+.icons {
+  width: 80px;
+  height: 80px;
+}
 
 .contact {
   color: white;
   margin-top: 0px;
-  padding-top: 70px; }
+  padding-top: 70px;
+}
 
 .image-footer {
-  text-align: center; }
+  text-align: center;
+}
 
 #feedback-page {
-  text-align: center; }
+  text-align: center;
+}
 
 #form-div {
   background-color: rgba(72, 72, 72, 0.4);
@@ -141,7 +208,8 @@ label {
   position: absolute;
   margin-top: 30px;
   margin-left: -260px;
-  -webkit-border-radius: 7px; }
+  -webkit-border-radius: 7px;
+}
 
 .feedback-input {
   color: #3c3c3c;
@@ -155,7 +223,8 @@ label {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  border: 3px solid transparent; }
+  border: 3px solid rgba(0, 0, 0, 0);
+}
 
 .feedback-input:focus {
   background: #fff;
@@ -164,59 +233,69 @@ label {
   color: #f00;
   outline: none;
   padding: 13px 13px 13px 54px;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 .focused {
   color: #f00;
-  border: #f00 solid 3px; }
+  border: #f00 solid 3px;
+}
 
 /* Icons ---------------------------------- */
 #name {
   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
   background-size: 17px 17px;
   background-position: 16px 13px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 #name:focus {
   background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
   background-size: 25px 25px;
   background-position: 8px 5px;
   background-position: 11px 8px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 #email {
   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
   background-size: 17px 17px;
   background-position: 16px 14px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 #email:focus {
   background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
   background-size: 30px 30px;
   background-position: 11px 8px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 #comment {
   background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
   background-size: 17px 17px;
   background-position: 16px 14px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 #comment:focus {
   background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
   background-size: 27px 27px;
   background-position: 15px 10px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 textarea {
   width: 100%;
   height: 150px;
   line-height: 150%;
-  resize: vertical; }
+  resize: vertical;
+}
 
 input:hover, textarea:hover,
 input:focus, textarea:focus {
-  background-color: white; }
+  background-color: white;
+}
 
 #button-blue {
   float: left;
@@ -230,32 +309,38 @@ input:focus, textarea:focus {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  margin-top: -4px; }
+  margin-top: -4px;
+}
 
 #button-blue:hover {
-  background-color: transparent;
-  color: #f00; }
+  background-color: rgba(0, 0, 0, 0);
+  color: #f00;
+}
 
 .submit:hover {
-  color: #f00; }
+  color: #f00;
+}
 
 .ease {
   width: 0px;
   height: 59px;
   background-color: #fbfbfb;
-  -webkit-transition: .3s ease;
-  -moz-transition: .3s ease;
-  -o-transition: .3s ease;
-  -ms-transition: .3s ease;
-  transition: .3s ease; }
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
 
 .submit:hover .ease {
   width: 100%;
-  background-color: white; }
+  background-color: white;
+}
 
 @media only screen and (max-width: 576px) {
   .pimg1, .pimg2, .pimg3 {
-    background-attachment: scroll; }
+    background-attachment: scroll;
+  }
 
   #form-div {
     left: 3%;
@@ -263,6 +348,8 @@ input:focus, textarea:focus {
     width: 88%;
     margin-left: 0;
     padding-left: 3%;
-    padding-right: 3%; } }
+    padding-right: 3%;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
