@@ -35,8 +35,8 @@ nav.black {
   float:left;
   left:50%;
   list-style:none;
-  margin:0 auto;
-  padding:0;
+  margin: 0 auto;
+  padding: 10px;
   position:relative;
 }
 
@@ -48,6 +48,7 @@ nav.black {
 .menu-items a {
   text-decoration: none;
   padding: 15px;
+  color: white;
 }
 .container a.active, 
 .container a:hover

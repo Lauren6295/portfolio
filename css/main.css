@@ -70,7 +70,7 @@ nav.black {
   left: 50%;
   list-style: none;
   margin: 0 auto;
-  padding: 0;
+  padding: 10px;
   position: relative;
 }
 
@@ -83,6 +83,7 @@ nav.black {
 .menu-items a {
   text-decoration: none;
   padding: 15px;
+  color: white;
 }
 
 .container a.active,
@@ -194,6 +195,16 @@ label {
 .icons {
   width: 80px;
   height: 80px;
+}
+
+.container-works {
+  display: flex;
+}
+
+.works {
+  margin: 20px;
+  flex: 1;
+  background: white;
 }
 
 .contact {
