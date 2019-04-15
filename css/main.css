@@ -207,6 +207,20 @@ label {
   background: white;
 }
 
+.container-works h2 {
+  color: #282e34;
+}
+
+.github-icon {
+  width: 10%;
+  height: 10%;
+}
+
+.works-images {
+  width: 250px;
+  height: 250px;
+}
+
 .contact {
   color: white;
   margin-top: 0px;
