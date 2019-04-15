@@ -1,0 +1,42 @@
+.image-three{
+  background-image:url('../images/image-three.jpg');
+  min-height:300px;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color: white;
+}
+.container-offer h2 {
+  color: #666;
+  padding-top: 20px;
+}
+.container-offer {
+  display: flex;
+}
+
+.container-offer div {
+  background: white;
+  width: 100px;
+  height: 250px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.box1 {
+  flex: 1;
+}
+.box2 {
+  flex: 1;
+}
+.box3 {
+  flex: 1;
+}
+.box4 {
+  flex: 1;
+}
+
+.icons {
+  width: 80px;
+  height: 80px;
+}

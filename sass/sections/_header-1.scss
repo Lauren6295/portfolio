@@ -1,0 +1,90 @@
+.bg-image-one, .image-two, .image-three{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+.bg-image-one {
+  background-image:url('../images/image-one.jpeg');
+  min-height:100%;
+}
+nav.black {
+  background: red;
+  height: 80px;
+  padding: 10px 50px;
+}
+.logo img {
+  float: left;
+  height: 60px;
+  transition: .5s;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.container {
+  clear:both;
+  float:left;
+  overflow:hidden;
+  width:100%;
+  margin-top: 150px;
+  font-size: 25px;
+}
+#menu {
+  float:left;
+  left:50%;
+  list-style:none;
+  margin: 0 auto;
+  padding: 10px;
+  position:relative;
+}
+
+#menu li {
+  float:left;
+  position:relative;
+  right:50%;
+}
+.menu-items a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+}
+.container a.active, 
+.container a:hover
+{
+  color: #fff;
+  background: #f00;
+}
+
+nav.black ul li a {
+  color: #fff;
+  line-height: 60px;
+}
+
+#toggle {
+  display: none;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+
+#btn-download-cv {
+  margin: 200px auto 0px;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#btn-download-cv:hover {
+  background-color: RoyalBlue;
+}
